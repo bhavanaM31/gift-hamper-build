@@ -1,0 +1,169 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-12 col-lg-6 px-2 m-auto">
+            <div class="header">Gifts for everyone</div>
+            <div class="sub-header">We offer a variety of categories for you to find the perfect gift for your loved
+                ones.</div>
+            <button class="enquire-btn mt-4" type="button">Enquire Now</button>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 text-center">
+            <img src="assets/images/home_gift_boxes.png" width="90%" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="cake-img" src="../../assets/images/cake.png" width="100%" />
+            <img src="../../assets/images/anniverssary.png" width="100%" />
+        </div>
+        <div class="col-lg-4">
+            <img src="../../assets/images/birthday.png" width="100%" />
+        </div>
+        <div class="col-lg-4">
+            <img class="cake-img" src="../../assets/images/personal.png" width="100%" />
+            <img src="../../assets/images/festival.png" width="100%" />
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <button class="small_title_1" mat-button>Explore <mat-icon>arrow_right_alt</mat-icon></button>
+    </div>
+    <div class="my-5 position-relative">
+        <div class="heading_1 order">Order early & <span class="off px-2">Get 10% OFF</span><br /> on upcoming Diwali
+            Gifts</div>
+        <img src="../../assets/images/light_gift.png" width="100%" />
+    </div>
+    <div class="row text-center spacer">
+        <div class="col">
+            <img class="star_img" src="../../assets/images/star_1.png">
+        </div>
+        <div class="col m-auto">
+            <div class="small_title_2">Product</div>
+            <div class="heading_3">Why Choose Us</div>
+        </div>
+        <div class="col">
+            <img class="star_img" src="../../assets/images/star_1.png">
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col position-relative mt-5">
+            <div class="number number_01">01</div>
+            <div class="heading_4 text-center">
+                Best Quality
+            </div>
+            <p class="content_1 mt-3">Selling a best quality gifts<br /> is our first goal.</p>
+        </div>
+        <div class="col">
+            <div class="gift_line">
+                <img class="" src="../../assets/images/all_gifts.png" width="100%">
+            </div>
+        </div>
+        <div class="col position-relative mt-5">
+            <div class="number number_02">02</div>
+            <div class="heading_4 text-center">Quick Delivery</div>
+            <p class="content_1 mt-3 text-end">Order is personally packaged <br /> to ensure safe & secure delivery</p>
+        </div>
+    </div>
+    <div class="row choose-space justify-content-between">
+        <div class="col-5 position-relative">
+            <div class="number number_01">03</div>
+            <div class="heading_4 text-center">Secure Payments</div>
+            <p class="content_1 mt-3">We promise to keep your payment details secure and encrypted</p>
+        </div>
+        <div class="col-5 position-relative">
+            <div class="number number_02">04</div>
+            <div class="heading_4 text-center">Maintained With Care</div>
+            <p class="content_1 mt-3 text-end">We work to forge strong relationships with people-and much</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid spacer">
+    <div class="row rating-card justify-content-center">
+        <div class="col-3 d-flex m-auto" *ngFor="let item of Rating">
+            <img src="../../assets/images/{{item.url}}" style="width: 92px;">
+            <div class="ms-3">
+                <div class="heading_5">{{item.score}}</div>
+                <div class="small_title_3">{{item.des}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col px-3 position-relative">
+            <div class="chocolate-bg"><span class="title_1">10%</span> <span class="title_2">OFF</span>
+                <div class="title_3"> Chocolate</div>
+                <button class="yellow-btn mt-4" type="button"><a class="reach-btn" href="#reachUs">Reach Us</a></button>
+            </div>
+            <img class="" src="../../assets/images/chocolate.png" width="100%">
+        </div>
+        <div class="col px-3 position-relative">
+            <div class="kidsGift-bg"><span class="title_1">15%</span> <span class="title_2">OFF</span>
+                <div class="title_3"> Gifts for kids</div>
+                <button class="yellow-btn mt-4" type="button"><a class="reach-btn" href="#reachUs">Reach Us</a></button>
+            </div>
+            <img class="" src="../../assets/images/boy_gift.png" width="100%">
+        </div>
+        <div class="col-12 text-center">
+            <img class="star_img" src="../../assets/images/star_1.png" style="margin-top: -30px;">
+        </div>
+    </div>
+</div>
+<div class="container-fluid position-relative">
+    <div class="row text-center ">
+        <div class="gift-card"></div>
+        <div class="col">
+            <img class="star_img" src="../../assets/images/gift_left.png">
+        </div>
+        <div class="col align-self-center">
+            <div class="">WE HAVE SOME GIFTS FOR YOU</div>
+            <div class="title"> UNDER ₹500</div>
+        </div>
+        <div class="col">
+            <img class="star_img " src="../../assets/images/gift_right.png">
+        </div>
+    </div>
+    <div class="row text-center  mb-3">
+        <div class="col-4">
+            <img class="star_img " src="../../assets/images/star_1.png">
+        </div>
+        <div class="col-4  align-self-center">
+            <div class="heading_1">#thegifthamper</div>
+        </div>
+        <div class="col"></div>
+    </div>
+    <!-- start-carousel -->
+    <app-image-slider></app-image-slider>
+    <!-- end-carousel -->
+    <div class="position-relative">
+        <img class="star_img down_img" src="../../assets/images/star_1.png">
+    </div>
+    <div class="row contact justify-content-center" id="reachUs">
+        <div class="col-sm-12 col-lg-5">
+            <div class="title_3">Reach out for more details</div>
+            <div class="title_2 mt-4">
+                Tell us more about you and we are happy to help with the best gift item for your occasion.
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-5 mx-5">
+            <div class="mb-3 heading_4">Get in touch!</div>
+            <form #userlogin="ngForm"  action="mbhavana3194@gmail.com" method="post">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" ngModel>
+                    </div>
+                    <div class="col-6">
+                        <input type="tel" name="mobileNo" class="form-control" placeholder="Contact Number" ngModel>
+                    </div>
+                    <div class="col-6 mt-4">
+                        <input type="email" name="emailId" class="form-control" placeholder="Email Address" ngModel>
+                    </div>
+                    <div class="col-6 mt-4">
+                        <input type="text" name="occasion" class="form-control" placeholder="Gifting Occasion" ngModel>
+                    </div>
+                </div>
+                <div class="text-end">
+                    <button class="mt-4 yellow-btn" type="submit" (click)="Submit(userlogin.value)">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

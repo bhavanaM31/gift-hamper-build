@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #F9E9D0 !important;
+}
+
+.navbar-nav {
+    margin-left: 8rem;
+}
+
+.nav-link {
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    font: normal normal normal 21px/31px Poppins;
+    margin: 0 1rem;
+}
+
+.active {
+    opacity: 1;
+    font: normal normal 600 21px/31px Poppins;
+    cursor: pointer;
+    border-radius: 2px;
+
+    a {
+        cursor: pointer;
+        color: #363636;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        position: relative;
+        width: 30%;
+        border: 2px solid #898989;
+        margin: 8px auto;
+    }
+}

@@ -1,1 +1,188 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+    font-family: "Banana Yeti";
+    src: url("./assets/fonts/BananaYeti-Extrabold\ Trial.ttf");
+}
+
+@font-face {
+    font-family: "Gabriola";
+    src: url("./assets/fonts/Gabriola.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    color: #363636;
+}
+
+.header {
+    font: normal normal 800 90px/144px Banana Yeti;
+    letter-spacing: 2.64px;
+    color: #363636;
+}
+
+.sub-header {
+    font: normal normal 300 29px/43px Poppins;
+    letter-spacing: 0.7px;
+    color: #808080;
+}
+
+.enquire-btn {
+    font: normal normal 100 20px/35px Poppins;
+    width: 215px;
+    height: 45px;
+    background: transparent linear-gradient(118deg, #F9E9D0 0%, #F9DCB0 100%) 0% 0% no-repeat padding-box;
+    border-radius: 31px;
+    border: none;
+    letter-spacing: 0.58px;
+    color: #363636;
+}
+
+.small_title_1 {
+    font: normal normal 100 18px/35px Poppins !important;
+    letter-spacing: 0.58px;
+}
+
+.heading_1 {
+    font: normal normal normal 62px/73px Gabriola;
+    letter-spacing: 1.49px;
+}
+
+.off {
+    background-color: #FECF34;
+    color: #363636;
+}
+
+.small_title_2 {
+    font: normal normal normal 38px/73px Gabriola;
+    letter-spacing: 0.91px;
+    color: #6E6E6E;
+}
+
+.heading_3 {
+    font: normal normal normal 62px/117px Gabriola;
+    letter-spacing: 1.49px;
+}
+
+.heading_4 {
+    font: normal normal normal 30px/46px Poppins;
+    letter-spacing: 0.72px;
+}
+
+.content_1 {
+    font: normal normal normal 24px/40px Poppins;
+    letter-spacing: 0.58px;
+    color: #A1A1A1;
+}
+
+.number {
+    width: 84px;
+    height: 112px;
+    font: normal normal bold 80px/120px Poppins;
+    letter-spacing: 1.92px;
+    color: #F9E9D0;
+    opacity: 0.56;
+}
+
+.number_01 {
+    position: absolute;
+    left: 13%;
+    top: -23%;
+    z-index: -1;
+}
+
+.number_02 {
+    position: absolute;
+    right: 16%;
+    top: -23%;
+    z-index: -1;
+}
+
+.choose-space {
+    margin-top: 20rem !important;
+}
+
+.heading_5 {
+    font: normal normal bold 42px/63px Poppins;
+    letter-spacing: 1.01px;
+}
+
+.small_title_3 {
+    font: normal normal normal 26px/40px Poppins;
+    letter-spacing: 0.62px;
+}
+
+.spacer {
+    margin: 6rem 0;
+}
+
+.title_1 {
+    font: normal normal normal 107px/127px Gabriola;
+    letter-spacing: 2.57px;
+}
+
+.title_2 {
+    font: normal normal normal 40px/50px Gabriola;
+    letter-spacing: 0.96px;
+}
+
+.title_3 {
+    font: normal normal normal 58px/33px Gabriola;
+    letter-spacing: 1.66px;
+}
+
+.yellow-btn {
+    font: normal normal 100 20px/35px Poppins;
+    width: 183px;
+    height: 40px;
+    border-radius: 31px;
+    border: none;
+    letter-spacing: 0.58px;
+    color: #363636;
+    background-color: #FECF34 !important;
+}
+
+.star_img {
+    width: 180px !important;
+    height: 180px;
+}
+
+.gift-card {
+    height: 91px;
+    background: #F9E9D0 0% 0% no-repeat padding-box;
+    position: absolute;
+    z-index: -1;
+    top: 4.5%;
+}
+
+.title {
+    font: normal normal bold 58px/125px Poppins;
+    letter-spacing: 1.44px;
+    color: #000000;
+}
+
+.form-control {
+    height: 40px;
+}
+
+.down_img {
+    position: absolute;
+    bottom: -39px;
+    left: 44%;
+}
+.reach-btn{
+    text-decoration: none;
+    color: #363636;
+}

@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="#">
+            <img src="assets/images/logo.png" width="90%">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mt-3">
+                <li class="nav-item py-0" (click)="selectTab(tab?.pagetitle)" *ngFor="let tab of tabs"
+                    [routerLink]="tab.route">
+                    <a class="nav-link py-0" [ngClass]="{active: isActive(tab?.pagetitle)}">{{tab?.pagetitle}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+    <router-outlet (activate)="onActivate($event)"></router-outlet>
+</div>
+<app-footer></app-footer>
