@@ -14,28 +14,43 @@ export class ImageSliderComponent implements OnInit {
   }
   imageObject: Array<object> = [
     {
-      image: '/assets/images/Rakhi.png',
-      thumbImage: '/assets/images/Rakhi.png',
+      image: '/assets/images/DSC09906.jpg',
+      thumbImage: '/assets/images/DSC09908.jpg',
       alt: 'alt of image',
     },
     {
-      image: '.assets/images/gift_left.png', // Support base64 image
-      thumbImage: 'assets/images/gift_left.png', // Support base64 image
+      image: '/assets/images/DSC09978.jpg', // Support base64 image
+      thumbImage: '/assets/images/DSC09981.jpg', // Support base64 image
       alt: 'Image alt', //Optional: You can use this key if want to show image with alt
     },
     {
-      image: '/assets/images/diwali.png',
-      thumbImage: '/assets/images/diwali.png',
+      image: '/assets/images/DSC00061.jpg',
+      thumbImage: '/assets/images/DSC00065.jpg',
       alt: 'alt of image',
     },
     {
-      image: '/assets/images/greeting_card.png',
-      thumbImage: '/assets/images/greeting_card.png',
+      image: '/assets/images/DSC09638.jpg',
+      thumbImage: '/assets/images/DSC00061.jpg',
       alt: 'alt of image',
     },
     {
-      image: 'assets/images/kit.png',
-      thumbImage: '/assets/images/kit.png',
+      image: '/assets/images/DSC00254.jpg',
+      thumbImage: '/assets/images/DSC00335.jpg',
+      alt: 'alt of image',
+    },
+    {
+      image: '/assets/images/DSC00117.jpg',
+      thumbImage: '/assets/images/DSC00119.jpg',
+      alt: 'alt of image',
+    },
+    {
+      image: '/assets/images/DSC00287.jpg',
+      thumbImage: '/assets/images/DSC00289.jpg',
+      alt: 'alt of image',
+    },
+    {
+      image: '/assets/images/DSC09930.jpg',
+      thumbImage: '/assets/images/DSC09933.jpg',
       alt: 'alt of image',
     },
  

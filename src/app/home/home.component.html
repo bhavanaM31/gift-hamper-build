@@ -145,7 +145,7 @@
         </div>
         <div class="col-sm-12 col-lg-5 mx-5">
             <div class="mb-3 heading_4">Get in touch!</div>
-            <form #userlogin="ngForm"  action="mbhavana3194@gmail.com" method="post">
+            <form #userlogin="ngForm" action="mbhavana3194@gmail.com" method="post">
                 <div class="row">
                     <div class="col-6">
                         <input type="text" name="name" class="form-control" placeholder="Your Name" ngModel>
@@ -159,9 +159,20 @@
                     <div class="col-6 mt-4">
                         <input type="text" name="occasion" class="form-control" placeholder="Gifting Occasion" ngModel>
                     </div>
-                </div>
-                <div class="text-end">
-                    <button class="mt-4 yellow-btn" type="submit" (click)="Submit(userlogin.value)">Send</button>
+                    <div class="col-8 small_title_1 mt-3">
+                        <div class="">
+                            <mat-icon class="align-middle"> call</mat-icon> 8885011455
+                        </div>
+                        <div class="">
+                            <mat-icon  class="align-middle"> mail_outline</mat-icon> thegifthamper23@gmail.com
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="text-end">
+                            <button class="mt-4 yellow-btn" type="submit"
+                                (click)="Submit(userlogin.value)">Send</button>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>
