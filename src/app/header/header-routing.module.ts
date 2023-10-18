@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from './header.component';
+import { ContactUsComponent } from '../contact-us/contact-us.component';
+import { AboutUsComponent } from '../about-us/about-us.component';
 
 const routes: Routes = [
   {
@@ -16,11 +18,11 @@ const routes: Routes = [
       },
       {
         path: 'about-us',
-        loadChildren: () => import('../about-us/about-us.module').then(m => m.AboutUsModule)
+        component: AboutUsComponent
       },
       {
         path: 'contact-us',
-        loadChildren: () => import('../contact-us/contact-us.module').then(m => m.ContactUsModule)
+        component: ContactUsComponent
       }
     ]
   }

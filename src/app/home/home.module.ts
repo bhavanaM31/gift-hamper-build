@@ -4,22 +4,20 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { MaterialModule } from '../Resources/material.module';
-import { ImageSliderComponent } from '../image-slider/image-slider.component';
-import { NgImageSliderModule } from 'ng-image-slider';
 import { FormsModule } from '@angular/forms';
+import { ComponentsModule } from '../components/components.module';
 
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    ImageSliderComponent
+    HomeComponent
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
     MaterialModule,
     FormsModule,
-    NgImageSliderModule
+    ComponentsModule
   ]
 })
 export class HomeModule { }

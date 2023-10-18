@@ -123,6 +123,12 @@ body {
     font: normal normal normal 26px/40px Poppins;
     letter-spacing: 0.62px;
 }
+.small_title_4 {
+    font: normal normal normal 19px/34px Poppins;
+}
+.small_title_bold_4 {
+    font: normal normal bold 19px/34px Poppins;
+}
 
 .spacer {
     margin: 6rem 0;
@@ -185,4 +191,7 @@ body {
 .reach-btn{
     text-decoration: none;
     color: #363636;
+}
+.about_img{
+    width: 80%;
 }
