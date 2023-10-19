@@ -1,0 +1,24 @@
+.contact {
+    height: 260px;
+    align-items: center;
+    background: transparent linear-gradient(180deg, #F9E9D0 0%, #F9E9D0 43%, #F3D3A0 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+}
+
+.profile {
+    width: 197px;
+    border-radius: 50%;
+    position: absolute;
+    left: 9%;
+    top: -15%;
+}
+.shadow {
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10.5%;
+    top: -9%;
+    background-color: #e6c590;
+    display: inline-block;
+}
