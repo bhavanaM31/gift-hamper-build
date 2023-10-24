@@ -118,6 +118,10 @@ body {
 
 .choose-space {
     margin-top: 20rem !important;
+    
+    @media only screen and (max-width: 600px) {
+        margin-top: 2rem !important;
+    }
 }
 
 .heading_5 {
@@ -151,7 +155,7 @@ body {
 }
 
 .title_3 {
-    font: normal normal normal 58px/33px Gabriola;
+    font: normal normal normal 58px/56px Gabriola;
     letter-spacing: 1.66px;
 }
 

@@ -7,6 +7,7 @@ import { FooterComponent } from '../footer/footer.component';
 import { ContactUsComponent } from '../contact-us/contact-us.component';
 import { ComponentsModule } from '../components/components.module';
 import { AboutUsComponent } from '../about-us/about-us.component';
+import { MaterialModule } from '../Resources/material.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AboutUsComponent } from '../about-us/about-us.component';
   imports: [
     CommonModule,
     HeaderRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    MaterialModule
   ]
 })
 export class HeaderModule { }
