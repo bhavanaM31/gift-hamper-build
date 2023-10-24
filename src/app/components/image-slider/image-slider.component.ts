@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, HostListener, OnInit, ViewChild } from '@angular/core';
 import { NgImageSliderComponent } from 'ng-image-slider';
 
 @Component({
@@ -8,9 +8,26 @@ import { NgImageSliderComponent } from 'ng-image-slider';
 })
 export class ImageSliderComponent implements OnInit {
   @ViewChild('nav') slider!: NgImageSliderComponent;
+  public screenWidth: any;
+  public imageSize: any;
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.screenWidth = window.innerWidth;
+    this.getWidth();
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.screenWidth = window.innerWidth;
+    this.getWidth();
+  }
+  getWidth() {
+    if (this.screenWidth <= 600) {
+      this.imageSize = { width: '100%', height: 400 }
+    } else {
+      this.imageSize = { width: '25%', height: 400 }
+    }
   }
   imageObject: Array<object> = [
     {
@@ -53,13 +70,13 @@ export class ImageSliderComponent implements OnInit {
       thumbImage: '/assets/images/DSC09933.jpg',
       alt: 'alt of image',
     },
- 
+
   ];
   prevImageClick() {
     this.slider.prev();
-}
+  }
 
-nextImageClick() {
+  nextImageClick() {
     this.slider.next();
-}
+  }
 }
