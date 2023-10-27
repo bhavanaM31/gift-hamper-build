@@ -1,10 +1,24 @@
-.contact {
-    height: 30rem;
+.contact_form {
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    padding: 2rem 0;
+}
+
+.contact_details {
+    padding: 2rem 0;
     align-items: center;
     background: transparent linear-gradient(180deg, #F9E9D0 0%, #F9E9D0 43%, #F3D3A0 100%) 0% 0% no-repeat padding-box;
     opacity: 0.96;
 
-    @media only screen and (max-width: 600px) {
-        height: 50rem;
+    .icon_bg {
+        padding: 1rem;
+        align-self: center;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+
+        .icon {
+            font-size: 30px;
+            color: #F9DDB1;
+            margin-top: -8px;
+        }
     }
 }

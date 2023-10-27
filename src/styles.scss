@@ -90,6 +90,7 @@ body {
 .content_2 {
     font: normal normal normal 16px/10px Poppins;
     letter-spacing: 0.58px;
+    line-height: 1.2;
     color: #A1A1A1;
 }
 
@@ -189,10 +190,6 @@ body {
     color: #000000;
 }
 
-.form-control {
-    height: 40px;
-}
-
 .down_img {
     position: absolute;
     bottom: -39px;
@@ -204,4 +201,7 @@ body {
 }
 .about_img{
     width: 80%;
+}
+.form-control{
+    border: 0!important;
 }
