@@ -1,12 +1,12 @@
 <div class="container-fluid">
     <div class="row text-center">
-        <div class="col col-sm-0">
+        <div class="col-lg">
         </div>
-        <div class="col m-auto">
+        <div class="col-lg m-auto col-sm-12">
             <p class="small_title_2">Feel free to</p>
             <p class="heading_1">Contact With Us</p>
         </div>
-        <div class="col col-sm-0">
+        <div class="col-lg col-sm-12">
             <img class="star_img" src="/assets/images/star_1.png">
         </div>
     </div>
@@ -38,17 +38,17 @@
             </form>
         </div>
     </div> -->
-    <div class="row contact_details my-5 px-3">
-        <div class="col-lg-2 col-sm-12 d-flex">
-            <div class="icon_bg">
-                <mat-icon class="align-middle icon"> call</mat-icon>
+    <div class="row contact_details my-5 px-0" >
+        <div class="col-lg col-sm-12 pt-sm-3 m-lg-0 p-lg-0 d-flex" *ngFor="let item of contact_details">
+            <div class="icon_bg ms-3">
+                <mat-icon class="align-middle icon">{{item.icon}}</mat-icon>
             </div>
             <div class="ms-3">
-                <div class="small_title_1">Phone</div>
-                <div class="content_2 mt-1">8885011455</div>
+                <div class="small_title_1">{{item.title}}</div>
+                <div class="content_2 mt-1">{{item.desc}}</div>
             </div>
         </div>
-        <div class="col-lg-3 col-sm-12 d-flex">
+        <!-- <div class="col-lg-3 col-sm-12 d-flex">
             <div class="icon_bg">
                 <mat-icon class="align-middle icon">mail</mat-icon>
             </div>
@@ -74,6 +74,6 @@
                 <div class="small_title_1">Address</div>
                 <div class="content_2 mt-1">303, Pavani Aqua Apartment, Masjid Banda, Kondapur 500084</div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
