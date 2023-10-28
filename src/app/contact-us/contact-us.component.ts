@@ -17,12 +17,12 @@ export class ContactUsComponent implements OnInit {
     {
       "icon": "mail",
       "title": "Email",
-      "desc": "thegifthamper23@gmail.com"
+      "desc": "tgh.thegifthamper@gmail.com"
     },
     {
       "icon": "access_time",
       "title": "Working Hours",
-      "desc": "Monday - Saturday : 8am - 22pm"
+      "desc": "Monday - Saturday : 8am - 10pm"
     },
     {
       "icon": "location_on",
