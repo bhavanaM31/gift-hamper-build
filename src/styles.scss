@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-    font: normal normal 800 78px/144px Banana Yeti;
+    font: normal normal 800 74px/144px Banana Yeti;
     letter-spacing: 2.64px;
     color: #363636;
 }
@@ -41,13 +41,13 @@ body {
 }
 
 .enquire-btn {
-    font: normal normal 100 20px/35px Poppins;
+    font: normal normal 100 20px/35px Poppins!important;
     width: 215px;
-    height: 45px;
     background: transparent linear-gradient(118deg, #F9E9D0 0%, #F9DCB0 100%) 0% 0% no-repeat padding-box;
-    border-radius: 31px;
-    border: none;
+    border-radius: 31px!important;
+    outline: none!important;
     letter-spacing: 0.58px;
+    border: none!important;
     color: #363636;
 }
 
@@ -161,13 +161,12 @@ body {
 }
 
 .yellow-btn {
-    font: normal normal 100 20px/35px Poppins;
+    font: normal normal 100 20px/35px Poppins!important;
     width: 183px;
-    height: 40px;
-    border-radius: 31px;
-    border: none;
+    border-radius: 31px!important;
+    border: none!important;
     letter-spacing: 0.58px;
-    color: #363636;
+    color: #363636!important;
     background-color: #FECF34 !important;
 }
 
